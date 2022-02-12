@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Магазин вина</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <section class="header__start">
+            <div class="header__container container">
+               <div class="header__burger"><span></span></div>
+               <div class="header__menu">
+                  <ul class="header__items">
+                     <li class="menu__link header__catalog" data-goto=".">Каталог</li>
+                     <li class="menu__link header__delevery" data-goto=".">Доставка</li>
+                     <li class="menu__link header__collection" data-goto=".">Коллекции</li>
+                     <li class="menu__link header__contacts" data-goto=".contacts__ends">Контакты</li>
+                     <li class="menu__link header__address" data-goto=".">Новокузнечный переулок 4/1</li>
+                     <li class="menu__link header__number" data-goto=".">8 (812) 123-45-67</li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+         <section class="header__body">
+            <div class="header__body-button container">
+               <div class="btn">винная карта</div>
+               <div class="btn">дегустация</div>
+            </div>
+         </section>
+      </header>
+      <main class="main">
+         <section class="description">
+            <div class="description__container container">
+               <div class="description__title title">Лучший вкус, это вкус долголетнего вина</div>
+               <div class="description__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim
+                  tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis
+                  adipiscing morbi sodales ac. Mauris dictumst risus pulvinar blandit elit. Vestibulum quam ultrices
+                  nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet rutrum. Lectus auctor purus
+                  ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras sapien,
+                  pellentesque viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui
+                  vel pretium euismod diam. Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc,
+                  orci aliquam quis.</div>
+               <div class="description__img"><img src="png/description.png" alt="description"></div>
+            </div>
+         </section>
+         <section class="news">
+            <div class="news__container container">
+               <div class="news__body">
+                  <div class="news__new">Новинки коллекций</div>
+                  <div class="news__title title">Март 1980<br>Урожай Марселя</div>
+                  <div class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor
+                     in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing
+                     morbi sodales ac. </div>
+                  <div class="news__table">
+                     <div class="news__year">1980</div>
+                     <div class="news__descr">Colli Euganei Bianco Ca' Lustra 1980<span>Красочная бутылка вина из
+                           Марселя</span></div>
+                     <div class="news__year">1980</div>
+                     <div class="news__descr">Colli Euganei Bianco Ca' Lustra 1980<span>Красочная бутылка вина из
+                           Марселя</span></div>
+                     <div class="news__year last">1980</div>
+                     <div class="news__descr last">Colli Euganei Bianco Ca' Lustra 1980<span>Красочная бутылка вина из
+                           Марселя</span></div>
+                  </div>
+                  <div class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor
+                     in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing
+                     morbi sodales ac. </div>
+                  <div class="news__btn btn">узнать подробнее</div>
+               </div>
+               <div class="news__images">
+                  <img src="png/image1.png" alt="image1">
+                  <img src="png/image2.png" alt="image2">
+                  <img src="png/image3.png" alt="image3">
+               </div>
+            </div>
+         </section>
+         <section class="mailing">
+            <div class="mailing__container container">
+               <div class="mailing__title title">Запись на дегустацию</div>
+               <div class="mailing__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim
+                  tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum.</div>
+               <form class="form" id="subscribe_form" method="post" action="/">
+                  <div class="personal-info">
+                     <input class="name place-form personal-info-person" type="text" placeholder="Имя" value=""
+                        name="name">
+                     <input class="number place-form personal-info-person" type="text" placeholder="Телефон" value=""
+                        name="number">
+                  </div>
+                  <div class="place">
+                     <select class="place-tag place-form" name="place">
+                        <option value="Бутик на Невском 103">Бутик на Невском 103</option>
+                        <option value="Бутик на Невском 104">Бутик на Невском 104</option>
+                        <option value="Бутик на Невском 105">Бутик на Невском 105</option>
+                     </select>
+                     <input class="input" type="submit" value="записаться" id="subscribe_form" name="submit">
+                  </div>
+                  <div class="submit__error">Заполните обязательные поля</div>
+               </form>
+               <img class="decor1" src="png/decor1.png" alt="decor1">
+               <img class="decor2" src="png/decor2.png" alt="decor2">
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="contacts__container container">
+            <ul class="contacts__links">
+               <li class="contacts__link">Главная</li>
+               <li class="contacts__link">Каталог</li>
+               <li class="contacts__link">Поставщики</li>
+               <li class="contacts__link">Коллекции</li>
+               <li class="contacts__link">Дегустация</li>
+               <li class="contacts__link">Коллекция 2020</li>
+               <li class="contacts__link">Контакты</li>
+            </ul>
+            <ul class="contacts__ends">
+               <li class="contacts__end">винный бутик LE CORTE</li>
+               <li class="contacts__end">8 (812) 123-45-67</li>
+               <li class="contacts__end">
+                  <div class="contact__link">
+                     <img src="svg/youtube.svg" alt="youtube">
+                     <img src="svg/vk.svg" alt="vk">
+                     <img src="svg/facebook.svg" alt="facebook">
+                  </div>
+               </li>
+               <li class="contacts__end">© le-corte.ru</li>
+            </ul>
+         </div>
+      </footer>
+   </div>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
